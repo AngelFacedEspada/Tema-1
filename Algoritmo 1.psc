@@ -10,9 +10,5 @@ Algoritmo Algoritmo1
 	Leer edad
 	Escribir "Hola ", nombre, " tienes ", edad, " años";
 	
-	//Escribir "Nombre : ", nombre;
-	//Escribir "Edad : ", edad;
-	//Escribir "¿Carnet? : ", conducir;
-	
 	
 FinAlgoritmo
