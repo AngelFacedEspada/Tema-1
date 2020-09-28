@@ -1,6 +1,6 @@
 Algoritmo ejercicio17
 	
-	Definir num, max, min, suma, contador Como Entero;
+	Definir num1, num, max, min, suma, contador Como Entero;
 	Definir media Como Real;
 	contador=1
 	max=0
@@ -8,13 +8,14 @@ Algoritmo ejercicio17
 	Repetir
 		Escribir "dime un numero";
 		Leer num;
+		num1=num
 		suma=suma+num;
 		contador=contador+1
-		Si num>max Entonces
-			num=max
+		Si num1>max Entonces
+			num1=max
 		Fin Si
-		Si num<min Entonces
-			num=mmin
+		Si num1<min Entonces
+			num1=mmin
 		Fin Si
 	Hasta Que num==0;
 	media=suma/contador;
