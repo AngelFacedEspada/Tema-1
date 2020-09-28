@@ -9,7 +9,7 @@ Algoritmo ejercicio8
 	SiNo
 		Escribir "escribe el precio del artículo";
 		Leer precio;
-		Si mes=10 Entonces
+		Si mes==10 Entonces
 			Escribir "total de la factura = ", precio*85/100, " euros";
 		SiNo
 			Escribir "total de la factura = ", precio, " euros";
