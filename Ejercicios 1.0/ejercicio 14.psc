@@ -16,7 +16,7 @@ Algoritmo ejercicio14
 				num = num+2;
 				contador=contador+1;
 			Hasta Que contador>n;
-			Escribir suma;
+			Escribir "el resultado = ", suma;
 		SiNo
 			num=num1;
 			num=num+1
@@ -27,7 +27,7 @@ Algoritmo ejercicio14
 				num = num+2;
 				contador=contador+1;
 			Hasta Que contador>n;
-			Escribir suma;
+			Escribir "el resultado = ", suma;
 		Fin Si
 	Fin Si
 	
