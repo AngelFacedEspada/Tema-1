@@ -1,0 +1,18 @@
+Algoritmo ejercicio2
+	
+	Definir i, tamaño Como Entero
+	Definir nombre, nombre2 Como Caracter;
+	Escribir "dime una palabra y te cambiare las mayusculas por minusculas y las minusculas por mayusculas";
+	Leer nombre;
+	tamaño=Longitud(nombre);
+	Para i=0 Hasta tamaño Con Paso 1 Hacer
+		Si Subcadena(nombre, i, i)>="a"y Subcadena(nombre, i ,i)<="z" Entonces
+			nombre2=nombre2+Mayusculas(Subcadena(nombre,i,i));
+		SiNo
+			nombre2=nombre2+Minusculas(Subcadena(nombre,i,i));
+		Fin Si
+		
+	Fin Para
+	Escribir nombre2;
+	
+FinAlgoritmo
