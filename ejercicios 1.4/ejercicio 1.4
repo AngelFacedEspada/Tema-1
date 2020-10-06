@@ -1,13 +1,13 @@
-Algoritmo ejercicio2
+Algoritmo ejercicio1
 	
-	Definir i, tamaño, k Como Entero
+	Definir i, tamaño, contador Como Entero
 	Definir nombre, nombre2 Como Caracter;
-	Escribir "dime una palabra y te cambiare las mayusculas por minusculas y las minusculas por mayusculas";
+	Escribir "dime una palabra y te cambiare el orden de la palabra";
 	Leer nombre;
 	tamaño=Longitud(nombre)
 	Para i=0 Hasta tamaño Con Paso 1 Hacer
-		nombre2=nombre2 + Subcadena(nombre,tamaño-k,tamaño-k)
-		k=k+1
+		nombre2=nombre2 + Subcadena(nombre,tamaño-contador,tamaño-contador)
+		contador=contador+1
 	Fin Para
 	Escribir nombre2;
 	
